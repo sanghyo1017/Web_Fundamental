@@ -1,0 +1,54 @@
+<!--step07_table.html-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        div {
+            margin : 0 auto;
+            width : 600px;
+            background-color: antiquewhite
+        }
+        table {
+            border : 1px solid rgb(15, 110, 78);
+        }
+        td {
+            border : 1px solid rgb(15, 110, 78);
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>표(table)형식으로 정보 출력</h3>
+        <table>
+            <colgroup>
+                <col width = "100px"/>
+                <col width = "300px"/>
+                <col width = "200px"/>
+            </colgroup>
+            <thead>
+                <th>번호</th>
+                <th>이름</th>
+                <th>주소</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td colspan="2">이상효</td>
+              
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>김민규</td>
+                    <td>서울</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+</body>
+</html>

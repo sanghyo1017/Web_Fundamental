@@ -1,0 +1,60 @@
+<!--step04_border.html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border</title>
+    <style>
+        div {
+            width : 100px;
+            height : 100px;
+            background-color: pink;
+        }
+        .box1 {
+            border-width : 10px;
+            border-style : solid;
+            border-color: powderblue;
+            padding : 10px;
+            margin : 10px;
+        }
+        /*보통 box2의 경우를 많이 사용함*/
+        .box2 {
+            border : 10px solid powderblue;
+            padding : 10px;
+            margin : 10px;
+        }
+        .box3 {
+            border-top-width : 10px;
+            border-right-width: 20px;
+            border-bottom-width: 20px;
+            border-left-width: 15px;
+
+            border-top-style : solid;
+            border-right-style: dashed;
+            border-bottom-style: dotted;
+            border-left-style: double;
+
+            border-top-color: powderblue;
+            border-right-color: rosybrown;
+            border-bottom-color: salmon;
+            border-left-color: seashell;
+        }
+        .box4 {
+            border-width : 10px;
+            border-style : solid;
+            border-color: powderblue;
+            margin : 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h3>Border Style</h3>
+    <div class="box1">box1</div>
+    <div class="box2">box2</div>
+    <div class="box3">box3</div>
+    <div class="box4">box4</div>
+    
+</body>
+</html>
