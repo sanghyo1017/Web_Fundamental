@@ -1,0 +1,34 @@
+<!--step04_manipulation.html-->
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="jquery-3.5.1.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $('p').pretend('<strong> Hi </strong>');
+            //$('p').append('<strong> Hi </strong>');
+            $('p').after('<strong>Hi</strong>');
+            $('p').before('<strong>Hi</strong>');
+            $('p').wrap('<div/>');
+
+            //$('p').remove();
+            //$('p').detach();
+            $('p').empty();
+        });
+    </script>
+    <style>
+        div{
+            border : 1px solid blue;
+        }
+        p {
+            background-color:antiquewhite
+        }
+    </style>
+</head>
+<body>
+    
+</body>
+</html>
